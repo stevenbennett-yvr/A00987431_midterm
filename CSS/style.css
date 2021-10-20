@@ -1,8 +1,19 @@
 /* you can change any of the default styles below */
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+Header, nav {
+  font-family: 'Quicksand';
+}
+
+body {
+  font-family 'Montserrat';
+}
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 2px;
   font-size: 10px;
 }
 
@@ -10,16 +21,25 @@ nav {
   height: 15px;
 }
 
+nav:visited {
+  color: #828282;
+}
+
 main {
-  background-color: #F8F4E3
+  background-color: #F8F4E3;
   height: 100vh;
 }
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #2A2B2A;
+  font-size: 1.8rem;
 }
 
 img {
   max-width: 400px;
+}
+
+div {
+  border: 2px;
+  border-color: #929087;
 }
