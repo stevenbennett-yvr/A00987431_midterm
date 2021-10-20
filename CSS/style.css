@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-Header, nav {
-  font-family: 'Quicksand';
+Header {
+  border: 2px solid #929087;
 }
 
 body {
@@ -14,11 +14,14 @@ body {
 * {
   margin: 0px;
   padding: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 10px;
 }
 
-nav {
-  height: 15px;
+ul {
+  list-style-type: none;
+  width: 250px;
 }
 
 nav:visited {
@@ -40,6 +43,6 @@ img {
 }
 
 div {
-  border: 2px;
-  border-color: #929087;
+  border: 2px solid #929087;
+  border: fit-content;
 }
